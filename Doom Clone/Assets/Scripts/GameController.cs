@@ -7,26 +7,50 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     /* REFERENCES */
-    // public PlayerController player;
-    // public AudioControl audio;
+    public PlayerController player;
+    public AudioController audio;
 
+    /* LEVELS */
+    public GameObject LevelOne; 
+    
     /* PREFABS */
-    // public GameObject imp;
-    // public GameObject zombieman
-    // public GameObject trooper;
+    public GameObject imp;
+    public GameObject zombieman;
+    public GameObject trooper;
    
     /* BOOLEAN GAMESTATES */
-    // private bool isPlaying;
-    // private bool isAlive; 
-    // public String gameState;
+    private bool isPlaying;
+    private bool isAlive; 
+    public string gameState;
     
     void Start()
     {
-        // gameState = "mainmenu";
+        gameState = "mainmenu";
     }
 
 
     void Update()
+    {
+        
+    }
+    
+    /* GAME STATE CONTROL */
+    /* public void CheckGameState()
+     *     if (gameState = "mainmenu")
+     *
+     *     if (gameState = "firstLevel")
+     *
+     *     if (gameState = "gameOver")
+     *
+     *     if (gameState = "victory")
+     */
+
+    public void Pause()
+    {
+        
+    }
+
+    public void Unpause()
     {
         
     }
