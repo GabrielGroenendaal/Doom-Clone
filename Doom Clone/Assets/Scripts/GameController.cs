@@ -2,16 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// This is the brain, the nervous system 
+// This is the brain, the nervous system that the rest of the game will reference
+
 public class GameController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    /* REFERENCES */
+    // public PlayerController player;
+    // public AudioControl audio;
+
+    /* PREFABS */
+    // public GameObject imp;
+    // public GameObject zombieman
+    // public GameObject trooper;
+   
+    /* BOOLEAN GAMESTATES */
+    // private bool isPlaying;
+    // private bool isAlive; 
+    // public String gameState;
+    
     void Start()
     {
-        
+        // gameState = "mainmenu";
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         

@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script is for registering the pickups and their effects 
+
 public class PickUp : MonoBehaviour
 {
-    // Start is called before the first frame update
+    /* REFERENCES */
+    // public PlayerController player;
+    
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
